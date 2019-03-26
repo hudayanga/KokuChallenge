@@ -20,7 +20,7 @@ namespace KokuBackend_L1.Controllers
         }
 
         // GET api/values/5
-        [HttpGet("{id}")]
+        [HttpGet("{amount}")]
         public decimal Get(int amount)
         {
             var rateProcessor = new RateProcessor(amount);
